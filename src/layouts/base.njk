@@ -14,7 +14,10 @@
         {% include "notification.njk" %}
 
         {% include "header.njk" %}
-        <main class="main">{{ content | safe }}</main>
+        {% include "marquee.njk" %}
+        <main class="main">
+        {{ content | safe }}
+        </main>
         {% include "footer.njk" %}
 
         {% if build.env === 'production' %}

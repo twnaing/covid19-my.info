@@ -1,0 +1,11 @@
+<div class="stats">
+  {% for stat in patients.list %}
+    <span class="stat {{ stat.meta.classes }}">{{ stat.label }}: <span class="stat__value">{{ stat.value }}</span></span>
+  {% endfor %}
+<!--
+  <span class="stat">active: {{ stats.eleventyComputed.activeCase }}</span>
+  <span class="stat">days: {{ stats.eleventyComputed.daysSinceLast() }}</span>
+  <span class="stat">hello: {{ stats.helloWorld }}</span>
+  <span class="stat">hi: {{ stats.hiya }}</span>
+-->
+</div>

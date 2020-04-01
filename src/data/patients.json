@@ -1,0 +1,35 @@
+{
+  "list": [
+    {
+      "indicator": "case",
+      "label": "ကူးစက်သူ",
+      "value": "15",
+      "meta": {
+        "datetime": "2020/03/31",
+        "classes": [
+          "warning"
+        ]
+      }
+    },
+    {
+      "label": "သေဆုံးသူ",
+      "value": "1",
+      "meta": {
+        "datetime": "2020/03/31",
+        "classes": [
+          "danger"
+        ]
+      }
+    },
+    {
+      "label": "ပျောက်ကင်းသူ",
+      "value": "0",
+      "meta": {
+        "datetime": "2020/03/31",
+        "classes": [
+          "success"
+        ]
+      }
+    }
+  ]
+}
