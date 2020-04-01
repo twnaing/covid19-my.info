@@ -1,0 +1,30 @@
+---
+title: မြန်မာနိုင်ငံ ဆေးရုံများ
+---
+
+<table>
+<thead>
+  <tr>
+    <th>မြို့</th>
+    <th>ဆေးရုံ</th>
+    <th>ဖုန်း</th>
+  </tr>
+</thead>
+<tbody>
+{% for hosp in hospitals.list %}
+  <tr>
+    <td>{{ hosp.city }}</td>
+    <td>{{ hosp.name }}</td>
+    <td>
+    {% for phone in hosp.phone %}
+      <a href='tel:{{ phone }}'>{{ phone }}</a>
+    {% endfor %}
+    </td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+
+<p>
+{{ hospitals.meta.source | safe }} မှ {{ hospitals.meta.last_access }} တွင်ရယူထားသည်
+</p>
