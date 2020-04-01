@@ -1,18 +1,19 @@
 @font-face {
-font-family:'Masterpiece Uni Sans';
-src:local('Masterpiece Uni Sans'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/mon3.woff') format('woff'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/mon3.ttf') format('ttf');
-  unicode-range: U+1001-104F;
+    font-family:'Masterpiece Uni Sans';
+    font-display: swap;
+    src:local('Masterpiece Uni Sans'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/mon3.woff') format('woff'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/mon3.ttf') format('ttf');
+    unicode-range: U+1001-104F;
 }
 
 @font-face {
     font-family:'GHK KengTung';
+    font-display: swap;
     src:local('GHK KengTung'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/GHKKengtung.woff') format('woff'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/GHKKengtung.ttf') format('ttf');
 }
 
 body {
     min-height: 100vh;
     /* text-rendering: optimizeSpeed; */
-    font-display: swap;
     line-height: 1.8;
     font-family: 'Masterpiece Uni Sans',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: var(--font-size, 1rem);
