@@ -1,13 +1,26 @@
+@font-face {
+font-family:'Masterpiece Uni Sans';
+src:local('Masterpiece Uni Sans'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/mon3.woff') format('woff'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/mon3.ttf') format('ttf');
+  unicode-range: U+1001-104F;
+}
+
+@font-face {
+    font-family:'GHK KengTung';
+    src:local('GHK KengTung'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/GHKKengtung.woff') format('woff'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/GHKKengtung.ttf') format('ttf');
+}
+
 body {
     min-height: 100vh;
-    text-rendering: optimizeSpeed;
-    line-height: 1.6;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    /* text-rendering: optimizeSpeed; */
+    font-display: swap;
+    line-height: 1.8;
+    font-family: 'Masterpiece Uni Sans',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: var(--font-size, 1rem);
 }
 
 h1,h2,h3,h4 {
-    line-height: 1.25;
+    font-family: 'GHK KengTung',-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 1.8;
 }
 
 h1 { font-size: 2em }
