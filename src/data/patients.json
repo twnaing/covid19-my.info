@@ -3,9 +3,9 @@
     {
       "indicator": "case",
       "label": "ကူးစက်သူ",
-      "value": "15",
+      "value": "16",
       "meta": {
-        "datetime": "2020/03/31",
+        "datetime": "2020/04/4",
         "classes": [
           "warning"
         ]
